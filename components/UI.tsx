@@ -146,8 +146,8 @@ export const UI: React.FC<UIProps> = ({
       <div className="absolute top-0 left-0 w-full p-4 pointer-events-auto z-30 flex flex-col sm:flex-row justify-between items-start gap-4">
         {/* Title & Undo/Redo */}
         <div className={`p-2 px-3 rounded-2xl shadow-md border transition-colors flex items-center gap-4 ${panelClass}`}>
-            <h1 className="text-lg font-black bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent tracking-tight">
-                BrickMaster
+            <h1 className="text-lg font-bold tracking-tight" style={{ fontFamily: '"Raleway", sans-serif', backgroundColor: '#e97171', color: 'white', padding: '4px 8px', borderRadius: '6px' }}>
+                Brick Builder
             </h1>
             
             <div className="h-6 w-px bg-gray-300 dark:bg-gray-700 mx-1"></div>
