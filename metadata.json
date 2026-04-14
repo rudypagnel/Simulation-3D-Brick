@@ -1,0 +1,5 @@
+{
+  "name": "Brick Master 3D",
+  "description": "A 3D brick building simulation where users can construct detailed models piece by piece, inspired by Lego. Features an AI Architect for building prompts.",
+  "requestFramePermissions": []
+}
